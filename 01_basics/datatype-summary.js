@@ -30,3 +30,37 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world");
 } 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive) , heap(non-primitive)
+
+
+// primitive stack
+
+let myname = "neha Singh"
+
+let anothername = myname
+anothername = "rani singh"
+
+// yha copy bnta h original affect ni hota
+
+console.log(myname) // neha singh
+console.log(anothername) // rani singh
+
+
+
+// non primitive  heap
+
+// yha dono ka same obj j h ik bhi cange hua toh dono change ho jayega
+
+let userOne = {
+    email: "neha@gmail.com",
+    upi: "neha@ybl"
+}
+
+userTwo = userOne 
+
+userTwo.email = "riya@gmail.com"
+
+console.table(userOne) // email = "riya@gmail.com"
