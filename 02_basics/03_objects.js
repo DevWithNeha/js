@@ -1,3 +1,6 @@
+
+//  this is a object literals
+
 // structure of ob
 
  /* 
