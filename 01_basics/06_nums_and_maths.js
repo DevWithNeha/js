@@ -1,19 +1,19 @@
-// const score = 400
-// console.log(score) // 400
+const score = 400
+console.log(score) // 400
 
-// const balance = new Number(143.753)
-// console.log(balance) // [Number: 143.753]
+const balance = new Number(143.753)
+console.log(balance) // [Number: 143.753]
 
-// console.log(balance.toString()) // convert value into string
+console.log(balance.toString()) // convert value into string
 
-// console.log(balance.toString().length) // 7
-// console.log(balance.toFixed(2)) // 1143.75
+console.log(balance.toString().length) // 7
+console.log(balance.toFixed(2)) // 1143.75
 
-// const otherNum = 3237.9867
-// console.log(otherNum.toPrecision(3)) // 3.24e+3
+const otherNum = 3237.9867
+console.log(otherNum.toPrecision(3)) // 3.24e+3
 
-// const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'))
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-IN'))
 
 
 // +++++++++++++++++++Maths++++++++++++++++++++++++++
