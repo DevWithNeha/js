@@ -6,7 +6,7 @@
 
 ( (name) => {
     console.log(`JS SERIES WITH ${name}`)
-})("NEHA"); // dusra function start karne ke liye semii colon dena hoga
+})("NEHA"); // dusra function start karne ke liye semi colon dena hoga
 
 ( function name(){
     console.log(`JS SERIES `)
